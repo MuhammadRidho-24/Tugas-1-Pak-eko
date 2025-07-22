@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8f0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+        .food-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .food-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            width: 220px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+        .food-item:hover {
+            transform: scale(1.05);
+        }
+        .food-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .food-info {
+            padding: 15px;
+        }
+        .food-name {
+            font-size: 1.2em;
+            margin: 10px 0 5px 0;
+            color: #333;
+        }
+        .food-description {
+            font-size: 0.9em;
+            color: #666;
+            height: 40px;
+            overflow: hidden;
+        }
+        .food-price {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #ff6f61;
+            font-size: 1.1em;
+        }
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>Delicious Food Shop</header>
+    <div class="container">
+        <div class="food-list">
+            <div class="food-item">
+                <img src="project/img/taruna.png" alt="Nasi Goreng" />
+                <div class="food-info">
+                    <div class="food-name">Nasi Goreng</div>
+                    <div class="food-description">Traditional Indonesian fried rice with spices and vegetables.</div>
+                    <div class="food-price">Rp 25,000</div>
+                </div>
+            </div>
+            <div class="food-item">
+                <img src="project/img/NNNNNNNNNNN.PNG" alt="Mie Ayam" />
+                <div class="food-info">
+                    <div class="food-name">Mie Ayam</div>
+                    <div class="food-description">Chicken noodle soup with savory broth and toppings.</div>
+                    <div class="food-price">Rp 20,000</div>
+                </div>
+            </div>
+            <div class="food-item">
+                <img src="image/imageggep/download.jpeg" alt="Sate Ayam" />
+                <div class="food-info">
+                    <div class="food-name">Sate Ayam</div>
+                    <div class="food-description">Grilled chicken skewers served with peanut sauce.</div>
+                    <div class="food-price">Rp 30,000</div>
+                </div>
+            </div>
+            <!-- Add more food items as needed -->
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Delicious Food Shop. All rights reserved.
+    </footer>
+</body>
+</html>
